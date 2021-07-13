@@ -1,0 +1,75 @@
+  body{
+      background-color: black ;
+  }  
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      
+
+  } 
+  h1{
+      color: rgb(255, 0, 0);
+      text-align: center;
+      font-size: 4em;
+      color: transparent;
+      animation: effect 0.8s linear infinite;
+      z-index: 10;
+      
+
+
+  }
+  @keyframes effects {
+      0%{
+          background: linear-gradient(white,red);
+          -webkit-background-clip: text;
+
+      }
+      
+  }
+  .human-heart{
+      margin: 5em;
+      -webkit-animation: 0.8s infinite beatHeart;
+      animation: 0.8s infinite beatHeart;
+  }
+  @-webkit-keyframes beatHeart{
+      0%{
+          transform: scale(1);
+      }
+      25%{
+          transform: scale(1.1);
+      }
+      40%{
+          transform: scale(1);
+      }
+      60%{
+          transform: scale(1.1);
+      }
+      100%{
+          transform: scale(1);
+      }
+      
+  }
+  @keyframes beatHeart{
+      0%{
+          transform: scale(1);
+      }
+      25%{
+          transform: scale(1.1);
+      }
+      40%{
+          transform: scale(1);
+      }
+      60%{
+          transform: scale(1.1);
+      }
+      100%{
+          transform: scale(1);
+      }
+      
+  }
+  h3{
+      color: violet;
+      text-align: end;
+  }
