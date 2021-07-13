@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
   body{
       background-color: black ;
   }  
@@ -5,22 +6,22 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      overflow: hidden;
+     
       
 
   } 
   h1{
       color: rgb(255, 0, 0);
       text-align: center;
-      font-size: 4em;
+      font-size: 3em;
       color: transparent;
       animation: effect 0.8s linear infinite;
-      z-index: 10;
+      font-family: 'Otomanopee One', sans-serif;
       
 
 
   }
-  @keyframes effects {
+  @keyframes effect {
       0%{
           background: linear-gradient(white,red);
           -webkit-background-clip: text;
@@ -71,5 +72,10 @@
   }
   h3{
       color: violet;
-      text-align: end;
+      text-align: center;
+  }
+  audio{
+      height: 0;
+      width: 0;
+      
   }
